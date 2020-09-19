@@ -10,7 +10,6 @@ the digital analogue of optical film compositing.
 
 #### Digital Compositing Tools
 
-Some of the software tools we'll be discussing include:
 
 * Paint Programs
 
