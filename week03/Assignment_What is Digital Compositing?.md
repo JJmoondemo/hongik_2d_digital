@@ -23,6 +23,8 @@ Some of the software tools we'll be discussing include:
 * General-purpose compositing packages
 
 
+
+
 But we'll also be discussing (particularly during the 2nd half of this course), some of the things that should be done before, during and after the creation of the original elements to ensure that they are as useful as possible.
 
 #### Basic Terms
