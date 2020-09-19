@@ -1,10 +1,11 @@
-What is Digital Compositing?
+#What is Digital Compositing?
 
 
-First, what is composites?
-Composite is the manipulated combination of at least two source images to produce an integrated result.
+##First, what is __composites__?
 
-Digital compositing is the process of digitally assembling multiple images to make a final image, typically for print, motion pictures or screen display. It is 
+__Composite__ is the manipulated combination of at least two source images to produce an integrated result.
+
+##So __Digital compositing__ is the process of digitally assembling multiple images to make a final image, typically for print, motion pictures or screen display. It is 
 the digital analogue of optical film compositing.
 
 Digital Compositing Tools
