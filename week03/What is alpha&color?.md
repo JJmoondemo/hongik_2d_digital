@@ -1,6 +1,4 @@
-
-
-What is Alpha & Color (Digital Color)
+# What is Alpha & Color (Digital Color)
 
 The alpha channel is a color component that represents the degree of transparency (or opacity) of a color (i.e., the red, green and blue channels). It is used to determine how a pixel is rendered when blended with another.
 
