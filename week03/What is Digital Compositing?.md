@@ -1,7 +1,7 @@
 # What is Digital Compositing?
 
 
-## First, what is __composites__?
+First, what is __composites__?
 
 __Composite__ is the manipulated combination of at least two source images to produce an integrated result.
 
