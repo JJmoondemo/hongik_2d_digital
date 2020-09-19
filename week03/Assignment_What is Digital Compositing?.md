@@ -25,8 +25,6 @@ Some of the software tools we'll be discussing include:
 
 
 
-But we'll also be discussing (particularly during the 2nd half of this course), some of the things that should be done before, during and after the creation of the original elements to ensure that they are as useful as possible.
-
 #### Basic Terms
 
 This composite was created from a multitude of different original images. We usually refer to the individual pieces from which we create our final composite as 'Elements'. 
