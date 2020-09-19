@@ -11,11 +11,18 @@ the digital analogue of optical film compositing.
 #### Digital Compositing Tools
 
 Some of the software tools we'll be discussing include:
-Paint Programs
-Color Correction utilities
-Warping/Morphing Tools
-Matte-Extraction software
-General-purpose compositing packages
+
+* Paint Programs
+
+* Color Correction utilities
+
+* Warping/Morphing Tools
+
+* Matte-Extraction software
+
+* General-purpose compositing packages
+
+But we'll also be discussing (particularly during the 2nd half of this course), some of the things that should be done before, during and after the creation of the original elements to ensure that they are as useful as possible.
 
 #### Basic Terms
 
