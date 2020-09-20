@@ -9,7 +9,7 @@
 
 알파 채널은 색상(즉, 빨간색, 녹색 및 파란색 채널)의 투명도(또는 불투명도) 정도를 나타내는 색상 구성요소입니다. 픽셀이 다른 픽셀과 혼합될 때 렌더링되는 방식을 결정하는 데 사용됩니다.
 
-*history of Alpha
+* history of Alpha
 
 Ed Catmull과 Alvy Ray Smith 는 1970년대에 New york Tech에서 '일체형 알파'라는 개념을 발명했다. 
 
