@@ -28,3 +28,4 @@ YPbPr= analog color codes
 
 component video cable = YPbPr
 
+![화면 캡처 2020-09-21 093454](https://user-images.githubusercontent.com/34304514/93725905-d5bd5f00-fbed-11ea-8d61-d6f1486d3676.png)
