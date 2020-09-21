@@ -36,7 +36,11 @@ component video cable = YPbPr
 
 카메라마다 color space가 다르다. canon - C log 등등
 
-영화를 촬영할 때 하나의 카메라만 쓰는 것이 아니다. 
+영화를 촬영할 때 하나의 카메라만 쓰는 것이 아니다. 그래서 촬영, 편집, CG작업등을 할 때 ACES를 기반으로 color space를 제한하는게 좋다.
+
+* color space가 달라지면 예뻐진다..? (ACES < SRGB?)
+
+nope color space 범위가 넓은 ACES가 dynamic range도 더 넓고 풍부한 표현에 있어서 더 좋다. 효과적으로
 
 * ACES Color space가 왜 유명한가?
 
@@ -44,10 +48,18 @@ component video cable = YPbPr
 
 JPG는 손실 압출방식(8bit). 디테일한 작업을 위해서는 JPG는 쓰지 않는게 좋을 것 같다.
 
+* 왜 color space에 대해 알고 있어야할까?
+
+SRGB의 한계점을 이해하고 이 color space에 대해 연구가 진행되고 발전이 되고 있는데 폭넓은 color space를 쓰면서 풍부하게 표현할 수 있도록 하는 것이 목표이다.
+
 * Dynamic range
 
  in photography describes the ratio between the maximum and minimum measurable light intensities
  
- * Gamma
+ * Gamma / Linear work flow
+ 
+ 감마 보정(감마 교정)은 비디오 카메라, 컴퓨터 그래픽 등에서 비선형 전달 함수(nonlinear transfer function)를 사용하여 빛의 강도(intensity) 신호를 비선형적으로 변형하는 것을 말한다. 일반적으로 감마 보정(gamma correction)이란 용어가 널리 쓰이나, 대부분의 경우 감마 부호화(gamma encoding)란 표현이 더 적절하다.
+
+디스플레이 등의 특성에 따라 감마 값을 미세하게 조정하는 것은 감마 조정이며, 감마 보정과는 다른 개념이다
  
  
