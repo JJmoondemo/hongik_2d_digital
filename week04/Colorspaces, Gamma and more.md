@@ -96,3 +96,7 @@ smart object를 이용하면 축소해도 ok
 마스킹 해서 로토스코핑 하나의 이미지를 만들기 - psd 파일과 jpg 파일로 제출
 
 5가지를 섞어서 이미지 2개 / 11
+
+resercvj topics we discovered today
+what is LUT?
+What is logspace and what is main differnece with sRGB why and when we use
