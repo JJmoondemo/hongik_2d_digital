@@ -29,3 +29,9 @@ YPbPr= analog color codes
 component video cable = YPbPr
 
 ![화면 캡처 2020-09-21 093454](https://user-images.githubusercontent.com/34304514/93725905-d5bd5f00-fbed-11ea-8d61-d6f1486d3676.png)
+
+*ACES Color space가 왜 유명한가?
+
+포토샵으로 작업하고 JPG, PNG파일등으로 저장한다면 sRGB로 대부분 저장이 된다. - 단점은 색상을 표현할 수 있는 단위가 매우 좁다.
+
+JPG는 손실 압출방식. 디테일한 작업을 위해서는 JPG는 쓰지 않는게 좋을 것 같다.
