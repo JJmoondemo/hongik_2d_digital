@@ -161,4 +161,4 @@ Logospace
 
 what is main difference with sRGB,
 
-Since most Photoshop tools function properly only in 8 or 16bit modes, we need to find a way to paint in those modes while retaining all - or most of - the information available in a 32bit format. Here comes “Log” to save the day!
+대부분의 Photoshop 툴은 8비트 또는 16비트 모드에서만 제대로 작동하기 때문에 32비트 형식으로 제공되는 모든 또는 대부분의 정보를 유지하면서 이러한 모드에서 그림을 그릴 수 있는 방법을 찾아야 합니다. 그것을 해결하기 위해 위해 "로그"가 존재한다.
