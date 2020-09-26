@@ -168,3 +168,8 @@ Log는 영화 제작자에게 놀라운 리소스입니다. 이제 소비자 용
 what is main difference with sRGB,
 
 대부분의 Photoshop 툴은 8비트 또는 16비트 모드에서만 제대로 작동하기 때문에 32비트 형식으로 제공되는 모든 또는 대부분의 정보를 유지하면서 이러한 모드에서 그림을 그릴 수 있는 방법을 찾아야 합니다. 그것을 해결하기 위해 위해 "로그"가 존재한다.
+
+[색 공간 관리 : sRGB, 선형 및 로그](https://www.artstation.com/tiberius-viris/blog/3ZBO/color-space-management-srgb-linear-and-log)
+
+
+[합성시 로그 및 색 공간 이해](https://www.rocketstock.com/blog/tips-for-log-color-space-compositing/)
