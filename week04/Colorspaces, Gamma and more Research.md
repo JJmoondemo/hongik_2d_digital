@@ -143,6 +143,22 @@ LUT는 자신이 필요해 의해서 만들어 쓰는 것도 가능합니다. �
 
 [LUT, 원하는 룩으로 가는 지름길](http://keruluke.com/archived_web/kft/vol4/lookuptable/)
 
-Lotoscope란?
+
+linear 
+
+ 컴퓨터 처리에 사용하기에 완벽한 의미가 있지만 우리 눈은 동일한 간격 사이에서 거의 동일한 양의 밝기 변화를 볼 것으로 기대하기 때문에 사람이 보는 데 적합하지 않습니다. 
+ 
+ SRGB
+
+linear의 문제를 해결하기 위해서 색상을 비선형으로 만드는 표준 인 sRGB라는 변환을 적용합니다 (그림 2). 곡선은 하단이 더 얕아서 더 어두운 값을 표시하고 상단이 더 가파르 기 때문에 더 적은 라이트 값을 가질 수 있습니다.
+곡선은 하단이 더 얕아서 더 어두운 값을 표시하고 상단이 더 가파르 기 때문에 더 적은 라이트 값을 가질 수 있습니다.
 
 
+Logospace
+
+로그를 색상 공간 "아카이버"로 생각할 수 있습니다 (파일에 대해 zip 또는 rar가 수행하는 것과 동일한 방식). 선형 공간은 동일한 단계로 값을 증가시키는 반면 로그 색상 공간은 이미지의 흰색 및 검은 색 영역의 값을 압축하여 정보를 저장하는 데 필요한 공간을 최소화하기 때문입니다 (그림 4).
+
+
+what is main difference with sRGB,
+
+Since most Photoshop tools function properly only in 8 or 16bit modes, we need to find a way to paint in those modes while retaining all - or most of - the information available in a 32bit format. Here comes “Log” to save the day!
