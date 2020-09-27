@@ -17,8 +17,6 @@ CIE 1976 L * a * b * 색상 공간은 물체 색상 측정에 가장 많이 사�
 **Y = Luminance & U-V**
 
 
-
-
 # YCbCr /YPbPr
 > YCbCr는 digital color codes
 YPbPr는 analog color codes
@@ -26,9 +24,6 @@ YPbPr는 analog color codes
 ![화면 캡처 2020-09-21 093454](https://user-images.githubusercontent.com/34304514/93725905-d5bd5f00-fbed-11ea-8d61-d6f1486d3676.png)
 
     Component video cable = YPbPr
-
-
-
 
 # ACES color
 
