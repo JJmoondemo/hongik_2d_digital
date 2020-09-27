@@ -61,7 +61,7 @@ SRGB의 한계점을 이해하고 이 color space에 대해 연구가 진행되�
 
 
 
-* Dynamic range
+# Dynamic range
  > in photography describes the ratio between the maximum and minimum measurable light intensities
  
 # Gamma / Linear work flow
