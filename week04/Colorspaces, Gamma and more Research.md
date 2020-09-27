@@ -21,7 +21,6 @@ CIE 1976 L * a * b * 색상 공간은 물체 색상 측정에 가장 많이 사�
 
 # YCbCr /YPbPr
 > YCbCr는 digital color codes
-YPbPr는 analog color codes
 
 예를 들어서 component video cable = YPbPr
 
