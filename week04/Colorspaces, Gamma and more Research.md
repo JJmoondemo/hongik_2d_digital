@@ -4,20 +4,20 @@
 색 표시계의 모든 색들은 이 색 공간에서 3차원 좌표로 나타낸다.
 
 
-# CIE lab color space
+**CIE lab color space**
 
 CIE 1976 L * a * b * 색상 공간은 물체 색상 측정에 가장 많이 사용되는 색상 공간 중 하나입니다. 
 1976 년 CIE에서 컬러 커뮤니케이션을 위해 정의했으며 오늘날 많은 산업에서 컬러 제어 및 관리를 위해 널리 채택되고 있습니다.
 
 
-# YUV 
+**YUV** 
 
 빛의 삼원색을 표현하는 RGB와 달리 빛의 밝기를 나타내는 **휘도(Y)와 색상신호 2개(U, V)** 로 표현하는 방식이다. 일반적인 TV나 비디오 카메라에서 많이 사용되는 방식이며, 흑백을 표현하기 위한 흰색, 회색, 검정색을 표현하는데 사용된다.
 3D로 모델링한다고 했을 때 UV를 많이 쓰는 것을 알 수 있다.
 **Y = Luminance & U-V**
 
 
-# YCbCr /YPbPr
+**YCbCr /YPbP**
 > YCbCr는 digital color codes
 YPbPr는 analog color codes
 
@@ -33,11 +33,7 @@ YPbPr는 analog color codes
 카메라마다 color space가 다른 것을 알 수 있다. canon에서는 C log를 쓰는 등등
 즉 영화를 촬영할 때 하나의 카메라만 쓰는 것이 아니다. 그래서 촬영, 편집, CG작업 등을 할 때 이 ACES를 기반으로 color space를 제한하는게 좋다.
 
-
-
-
-### Color space가 달라지면 예뻐진다? (ACES < SRGB?)
-
+**Color space가 달라지면 예뻐진다? (ACES < SRGB?)**
 > **Nope**
 Color space 범위가 넓은 ACES가 Dynamic Range도 더 넓고,
 풍부한 표현에 있어서 더 좋다. 
