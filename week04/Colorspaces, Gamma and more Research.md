@@ -4,14 +4,12 @@
     색 공간(色空間, color space)은 색 표시계(color system)를 3차원으로 표현한 공간 개념이다.
     색 표시계의 모든 색들은 이 색 공간에서 3차원 좌표로 나타낸다.
 
-<img width="744" alt="스크린샷 2020-09-27 오후 3 01 29" src="https://user-images.githubusercontent.com/34304514/94357267-61455d00-00d2-11eb-8603-6d7abf80a0f1.png">
+
 
 ### CIE lab color space
-CIE 1976 L * a * b * 색상 공간은 물체 색상 측정에 가장 많이 사용되는 색상 공간 중 하나입니다. 
-1976 년 CIE에서 컬러 커뮤니케이션을 위해 정의했으며 오늘날 많은 산업에서 컬러 제어 및 관리를 위해 널리 채택되고 있습니다.
+CIE 1976 L * a * b * 색상 공간은 물체 색상 측정에 가장 많이 사용되는 색상 공간 중 하나입니다.  1976 년 CIE에서 컬러 커뮤니케이션을 위해 정의했으며 오늘날 많은 산업에서 컬러 제어 및 관리를 위해 널리 채택되고 있습니다.
 
-
-![600px-YUV_UV_plane svg](https://user-images.githubusercontent.com/34304514/94357280-83d77600-00d2-11eb-9b64-d5e21d7aebb1.png)
+<img width="300" alt="스크린샷 2020-09-27 오후 3 01 29" src="https://user-images.githubusercontent.com/34304514/94357267-61455d00-00d2-11eb-8603-6d7abf80a0f1.png">
 
 ### YUV
 
@@ -20,15 +18,18 @@ CIE 1976 L * a * b * 색상 공간은 물체 색상 측정에 가장 많이 사�
 빛의 삼원색을 표현하는 RGB와 달리 빛의 밝기를 나타내는 **휘도(Y)와 색상신호 2개(U, V)** 로 표현하는 방식이다. 일반적인 TV나 비디오 카메라에서 많이 사용되는 방식이며, 흑백을 표현하기 위한 흰색, 회색, 검정색을 표현하는데 사용된다.
 3D로 모델링한다고 했을 때 UV를 많이 쓰는 것을 알 수 있다.
 
-![화면 캡처 2020-09-21 093454](https://user-images.githubusercontent.com/34304514/93725905-d5bd5f00-fbed-11ea-8d61-d6f1486d3676.png)
 
-    Component video cable = YPbPr
+
     
 ### YCbCr /YPbP
 
      YCbCr는 digital color codes
     YPbPr는 analog color codes
+    
+<img width="539" alt="스크린샷 2020-09-27 오후 3 12 04" src="https://user-images.githubusercontent.com/34304514/94357435-dd8c7000-00d3-11eb-8493-a79bbac5100b.png">
 
+    Component video cable = YPbPr
+    
 ### ACES color
 
 > "Academy Color Encoding System"
@@ -110,6 +111,8 @@ R, G, B의 채널은 각각 하나의 1차원의 배열을 지니고 있습니�
  
  2. 3D LUT
 3D LUT는 색상 채널의 모든 값 범위에 대한 색상 변환을 나타내는 각각의 축을 사용하여 선으로만 표현이 가능한 1D LUT와 달리 3차원 좌표계(3D Cube)로 시각화할 시킬 수 있습니다. R, G, B 각 축을 따라 있는 점의 개수는 LUT의 사이즈에 따라 다르게 생성됩니다. 그 점을 중심으로 각각의 색상 채널에 대한 색상 변환을 할 수 있으며, 점 과 점 사이는 보간법을 이용해 근사치 값으로 보정이 되므로 LUT의 사이즈가 클수록 좀 더 정밀하게 색상을 컨트롤 할 수 있습니다. 현재 우리가 LUT라고 통칭해서 부르고 많이 사용하는 LUT가 바로 3D LUT라고 보시면 됩니다.
+<img width="300" alt="스크린샷 2020-09-27 오후 3 14 42" src="https://user-images.githubusercontent.com/34304514/94357489-3c51e980-00d4-11eb-9946-6898bb339836.png">
+
 
 ### 포맷
 
