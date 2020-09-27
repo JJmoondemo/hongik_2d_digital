@@ -1,29 +1,32 @@
+
 # Color space
 
-색 공간(色空間, color space)은 색 표시계(color system)를 3차원으로 표현한 공간 개념이다.
-색 표시계의 모든 색들은 이 색 공간에서 3차원 좌표로 나타낸다.
+    색 공간(色空間, color space)은 색 표시계(color system)를 3차원으로 표현한 공간 개념이다.
+    색 표시계의 모든 색들은 이 색 공간에서 3차원 좌표로 나타낸다.
 
+<img width="744" alt="스크린샷 2020-09-27 오후 3 01 29" src="https://user-images.githubusercontent.com/34304514/94357267-61455d00-00d2-11eb-8603-6d7abf80a0f1.png">
 
 **CIE lab color space**
-
 CIE 1976 L * a * b * 색상 공간은 물체 색상 측정에 가장 많이 사용되는 색상 공간 중 하나입니다. 
 1976 년 CIE에서 컬러 커뮤니케이션을 위해 정의했으며 오늘날 많은 산업에서 컬러 제어 및 관리를 위해 널리 채택되고 있습니다.
 
 
+![600px-YUV_UV_plane svg](https://user-images.githubusercontent.com/34304514/94357280-83d77600-00d2-11eb-9b64-d5e21d7aebb1.png)
+
 **YUV** 
+
+    Y = Luminance & U-V
 
 빛의 삼원색을 표현하는 RGB와 달리 빛의 밝기를 나타내는 **휘도(Y)와 색상신호 2개(U, V)** 로 표현하는 방식이다. 일반적인 TV나 비디오 카메라에서 많이 사용되는 방식이며, 흑백을 표현하기 위한 흰색, 회색, 검정색을 표현하는데 사용된다.
 3D로 모델링한다고 했을 때 UV를 많이 쓰는 것을 알 수 있다.
-**Y = Luminance & U-V**
-
-
-**YCbCr /YPbP**
-> YCbCr는 digital color codes
-YPbPr는 analog color codes
 
 ![화면 캡처 2020-09-21 093454](https://user-images.githubusercontent.com/34304514/93725905-d5bd5f00-fbed-11ea-8d61-d6f1486d3676.png)
 
     Component video cable = YPbPr
+
+**YCbCr /YPbP**
+ YCbCr는 digital color codes
+YPbPr는 analog color codes
 
 # ACES color
 
@@ -33,32 +36,25 @@ YPbPr는 analog color codes
 카메라마다 color space가 다른 것을 알 수 있다. canon에서는 C log를 쓰는 등등
 즉 영화를 촬영할 때 하나의 카메라만 쓰는 것이 아니다. 그래서 촬영, 편집, CG작업 등을 할 때 이 ACES를 기반으로 color space를 제한하는게 좋다.
 
+
 **Color space가 달라지면 예뻐진다? (ACES < SRGB?)**
-> **Nope**
-Color space 범위가 넓은 ACES가 Dynamic Range도 더 넓고,
+**Nope**. Color space 범위가 넓은 ACES가 Dynamic Range도 더 넓고,
 풍부한 표현에 있어서 더 좋다. 
 
 
-
-
-### ACES Color space가 왜 유명한가?
-
-> 포토샵으로 작업하고 JPG, PNG파일등으로 저장한다면 sRGB로 대부분 저장이 된다.
+**ACES Color space가 왜 유명한가?**
+포토샵으로 작업하고 JPG, PNG파일등으로 저장한다면 sRGB로 대부분 저장이 된다.
 이것의 단점은 색상을 표현할 수 있는 단위가 매우 좁다는 것이다.
 JPG는 손실 압출방식(8bit). 디테일한 작업을 위해서는 JPG는 쓰지 않는게 좋을 것 같다.
 
-
-
-
-# 왜 color space에 대해 알고 있어야할까?
-
+**왜 color space에 대해 알고 있어야할까?**
 SRGB의 한계점을 이해하고 이 color space에 대해 연구가 진행되고 발전이 되는 세상에서  폭넓은 Color space를 쓰면서 풍부하게 표현할 수 있도록 하는 것이 목표이다.
 
 
 
 
 # Dynamic range
- > in photography describes the ratio between the maximum and minimum measurable light intensities
+  in photography describes the ratio between the maximum and minimum measurable light intensities
  
 # Gamma / Linear work flow
  
@@ -87,7 +83,7 @@ brightness를 올리면 RGB 자체 linear를 위 아래로 움직이는 것
 LUT (Look-Up Table)는 특정 RGB 이미지 값을 소스 이미지로 가져와 해당 소스 이미지의 색조, 채도 및 밝기 값을 변경하여 **새 RGB 값으로 수정하는 수학적으로 정확한 방법**입니다.
 LUT는 또한 Bleach Bypass Look과 같은 소스 이미지에 특정 'Look'을 적용하기 위해 창의적으로 사용될 수 있습니다.
 
-# LUT의 용도
+### 용도
 LUT 또는 대조 테이블을 사용하면 비디오 콘텐츠에 다양한 룩을 쉽게 적용할 수 있습니다. RAW 또는 로그 콘텐츠를 촬영할 때 자주 사용되는데, 처음에는 그냥 밋밋하게 보이지만 포스트 프로덕션 창의성을 위한 많은 양의 정보가 포함되어 있습니다.  
 
 <img width="904" alt="스크린샷 2020-09-21 오후 5 46 49" src="https://user-images.githubusercontent.com/34304514/93747947-6f0e6480-fc32-11ea-9e14-1d51104a5a24.png">
@@ -97,21 +93,18 @@ LUT 또는 대조 테이블을 사용하면 비디오 콘텐츠에 다양한 룩
 **참고 자료**
     [What is a LUT (and how do you use a LUT for color correction)?](https://mixinglight.com/color-grading-tutorials/understanding-luts/)
     [LUT 라이브러리SONY](https://pro.sony/ko_KR/technology/professional-video-lut-look-up-table)
-
-# LUT의 이점
-
+    
+### 장점, 이점
 LUT 또는 대조 테이블을 사용하면 **비디오 콘텐츠에 다양한 룩을 쉽게 적용**할 수 있습니다. RAW 또는 로그 콘텐츠를 촬영할 때 자주 사용되는데, 처음에는 그냥 밋밋하게 보이지만 포스트 프로덕션 창의성을 위한 많은 양의 정보가 포함되어 있습니다.  
 
 서로 다른 텔레비전 표준 간의 변환(예: S-Log3에서 Rec-709로)에 사용되는 “테크니컬” LUT가 있으며, **거의 무한대의 다양한 시각적 모양과 스타일을 만드는 데 사용할 수 있는** 크리에이티브 LUT가 있습니다.
 
-
-
-# LUT 적용법
+## 적용법
 
 1. Gamma값 조절하기
 2. 사용자가 정한 Gamma값을 적용하기 
 
-# LUT 종류
+## 종류
 
 1. 1D LUT
 R, G, B의 채널은 각각 하나의 1차원의 배열을 지니고 있습니다. 다시 말해 1D LUT는 1차원이기 때문에 개념상 면이 아닌 선 혹은 곡선의 형태이며 R, G, B 채널당 각각 커브를 움직일 수 있습니다. 1D LUT의 특징은 Lift, Gamma, Gain, Contrast에 1:1로 매칭이 되고, Hue, Saturation의 보정 값은 1D LUT에 아무런 변화를 주지 못합니다. 이러한 결과로 인해 흔히들 1D LUT를 흔히 밝기 값만 보정한다고 해서 ‘휘도 곡선’이라고 표현하고 있습니다. 하지만 Lift, Gamma, Gain 들을 R, G, B 채널 당 따로 보정을 했을 경우에는 휘도 외에도 색상까지 보정되는 결과를 얻을 수 있으므로 단지 휘도 값만 조절한다고 한정 지을 순 없습니다. 하지만 대다수 1D LUT는 R, G, B채널의 값이 동일한 경우가 대다수 입니다.
