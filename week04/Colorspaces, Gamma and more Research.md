@@ -154,4 +154,5 @@ Log는 영화 제작자에게 놀라운 리소스입니다. 이제 소비자 용
 
     [색 공간 관리 : sRGB, 선형 및 로그](https://www.artstation.com/tiberius-viris/blog/3ZBO/color-space-management-srgb-linear-and-log)
     [합성시 로그 및 색 공간 이해](https://www.rocketstock.com/blog/tips-for-log-color-space-compositing/)
+    https://stackedit.io/app#
 
