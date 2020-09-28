@@ -36,3 +36,11 @@ less ryr movements focal set
 *** 이런 기법을 사용해 나의 의도를 충분히 씬에서 전달할 수 있도록 하는게 중요하다.
 
 sharpness 몰아준다 = 그 부분은 선명하다
+
+aperture & depth of field
+depth of field= shallow
+
+aperture bigger
+
+조리개 개방/...
+조리개 조여져 있다면 배경까지 최대한 깊은 심도로 촬용되겠죠
