@@ -46,3 +46,15 @@ Frame can be anythinh trees, door, tunnels, bridges ...
 6. Square
 
 7. Circle
+
+8. Tryangle
+
+9. Pattern
+
+Depth
+
+FG, MG, BG
+
+전경 중경 배경
+
+Overlap
