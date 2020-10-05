@@ -38,3 +38,9 @@ Give Depth
 Make curiosity
 
 Frame can be anythinh trees, door, tunnels, bridges ...
+
+4. Linear Motif
+
+5. Lines and Shpaes
+
+6. Square
