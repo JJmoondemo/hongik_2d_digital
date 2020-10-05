@@ -68,3 +68,11 @@ Size Difference
 -------------------------------------------
 
 Color
+
+color pallette and mood
+
+moviesincolor.com
+
+cssdrive.com
+
+컬러팔레트를 만들어 놓고 작업을 하는게 좋다! 나중에 작업할 때에도 잊지 않고 연속성을 가져간채로 작업가능
