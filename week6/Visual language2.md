@@ -58,3 +58,13 @@ FG, MG, BG
 전경 중경 배경
 
 Overlap
+
+Diffusion
+
+textur diffusion 
+
+Size Difference
+
+-------------------------------------------
+
+Color
